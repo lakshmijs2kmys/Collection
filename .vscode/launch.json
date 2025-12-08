@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ArrayListPgm",
+            "request": "launch",
+            "mainClass": "ArrayListPgm",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "Current file",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Attach to Port 8080",
+            "request": "attach",
+            "hostName": "localhost",
+            "port": 8787
+        }
+    ]
+}
