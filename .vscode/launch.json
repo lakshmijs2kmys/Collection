@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "VectorPgm",
+            "request": "launch",
+            "mainClass": "VectorPgm",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "LinkedListOps",
+            "request": "launch",
+            "mainClass": "LinkedListOps",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
             "name": "ArrayListPgm",
             "request": "launch",
             "mainClass": "ArrayListPgm",
