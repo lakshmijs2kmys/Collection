@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "StackPgm",
+            "request": "launch",
+            "mainClass": "StackPgm",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
             "name": "VectorPgm",
             "request": "launch",
             "mainClass": "VectorPgm",
