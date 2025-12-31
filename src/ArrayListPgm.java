@@ -62,5 +62,21 @@ public class ArrayListPgm {
         System.out.println(f6);
 
         System.out.println("is equals = "+f3.equals(f4));
+    
+
+        List<String> originalList = Arrays.asList("A", "B", "A", "C", "B");
+        List<String> uniqueList = new ArrayList<>();
+        for (String element : originalList) {
+            if (!uniqueList.contains(element)) {
+                uniqueList.add(element);
+            }
+        }
+        System.out.println(uniqueList);
+
+        String name = "bright win nani nunew zee";
+        List<String> names = new ArrayList<>(Arrays.asList(name.split("\\s+")));
+        System.out.println(names);
+
     }
+    
 }

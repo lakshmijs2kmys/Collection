@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "pgm1",
+            "request": "launch",
+            "mainClass": "practice.pgm1",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "StreamApiPgm",
+            "request": "launch",
+            "mainClass": "StreamApiPgm",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
             "name": "StackPgm",
             "request": "launch",
             "mainClass": "StackPgm",
