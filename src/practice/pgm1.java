@@ -1,6 +1,6 @@
 package practice;
 
-import java.util.Optional;
+import java.util.Map;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
@@ -12,6 +12,7 @@ public class pgm1 {
 
         Map<Character, Long> map = str.chars().mapToObj(c-> (char) c).collect(Collectors.groupingBy(Function.identity(), Collectors.counting()));
         Long maxOcc = map.values().stream().mapToLong(Long::longValue).max().orElse(0);
-         maxOcc % 2 == 0;
+        boolean maxoccarance = maxOcc % 2 == 0;
+        System.out.println(maxoccarance);
     }
 }
