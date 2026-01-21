@@ -2,6 +2,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "palindrome",
+            "request": "launch",
+            "mainClass": "practice.palindrome",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "squareOfOddNo",
+            "request": "launch",
+            "mainClass": "practice.squareOfOddNo",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "sortedOrNot",
+            "request": "launch",
+            "mainClass": "practice.sortedOrNot",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "shift1ToLeft",
+            "request": "launch",
+            "mainClass": "practice.shift1ToLeft",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "secondLagrestNum",
+            "request": "launch",
+            "mainClass": "practice.secondLagrestNum",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "DuplicatevaluesinCollection",
+            "request": "launch",
+            "mainClass": "practice.DuplicatevaluesinCollection",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "secondHigestFrequesncy",
+            "request": "launch",
+            "mainClass": "practice.secondHigestFrequesncy",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "sumOf2num",
+            "request": "launch",
+            "mainClass": "practice.sumOf2num",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
+            "name": "newpgm",
+            "request": "launch",
+            "mainClass": "practice.newpgm",
+            "projectName": "collections_723aaea2"
+        },
+        {
+            "type": "java",
             "name": "pgm1",
             "request": "launch",
             "mainClass": "practice.pgm1",
